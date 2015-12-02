@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC6577F1C0FB39F00341A82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC6577E1C0FB39F00341A82 /* main.m */; };
+		CCC657821C0FB39F00341A82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC657811C0FB39F00341A82 /* AppDelegate.m */; };
+		CCC657851C0FB39F00341A82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC657841C0FB39F00341A82 /* ViewController.m */; };
+		CCC657881C0FB39F00341A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC657861C0FB39F00341A82 /* Main.storyboard */; };
+		CCC6578A1C0FB39F00341A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC657891C0FB39F00341A82 /* Assets.xcassets */; };
+		CCC6578D1C0FB39F00341A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC6578B1C0FB39F00341A82 /* LaunchScreen.storyboard */; };
+		CCC657981C0FB39F00341A82 /* LLDB_Command_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC657971C0FB39F00341A82 /* LLDB_Command_TestTests.m */; };
+		CCC657A31C0FB39F00341A82 /* LLDB_Command_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC657A21C0FB39F00341A82 /* LLDB_Command_TestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC657941C0FB39F00341A82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC657721C0FB39E00341A82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC657791C0FB39E00341A82;
+			remoteInfo = "LLDB Command Test";
+		};
+		CCC6579F1C0FB39F00341A82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC657721C0FB39E00341A82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC657791C0FB39E00341A82;
+			remoteInfo = "LLDB Command Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC6577A1C0FB39F00341A82 /* LLDB Command Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LLDB Command Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC6577E1C0FB39F00341A82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCC657801C0FB39F00341A82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCC657811C0FB39F00341A82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCC657831C0FB39F00341A82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCC657841C0FB39F00341A82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCC657871C0FB39F00341A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCC657891C0FB39F00341A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCC6578C1C0FB39F00341A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCC6578E1C0FB39F00341A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC657931C0FB39F00341A82 /* LLDB Command TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LLDB Command TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC657971C0FB39F00341A82 /* LLDB_Command_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDB_Command_TestTests.m; sourceTree = "<group>"; };
+		CCC657991C0FB39F00341A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC6579E1C0FB39F00341A82 /* LLDB Command TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LLDB Command TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC657A21C0FB39F00341A82 /* LLDB_Command_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDB_Command_TestUITests.m; sourceTree = "<group>"; };
+		CCC657A41C0FB39F00341A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC657771C0FB39E00341A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC657901C0FB39F00341A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC6579B1C0FB39F00341A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC657711C0FB39E00341A82 = {
+			isa = PBXGroup;
+			children = (
+				CCC6577C1C0FB39F00341A82 /* LLDB Command Test */,
+				CCC657961C0FB39F00341A82 /* LLDB Command TestTests */,
+				CCC657A11C0FB39F00341A82 /* LLDB Command TestUITests */,
+				CCC6577B1C0FB39F00341A82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC6577B1C0FB39F00341A82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC6577A1C0FB39F00341A82 /* LLDB Command Test.app */,
+				CCC657931C0FB39F00341A82 /* LLDB Command TestTests.xctest */,
+				CCC6579E1C0FB39F00341A82 /* LLDB Command TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC6577C1C0FB39F00341A82 /* LLDB Command Test */ = {
+			isa = PBXGroup;
+			children = (
+				CCC657801C0FB39F00341A82 /* AppDelegate.h */,
+				CCC657811C0FB39F00341A82 /* AppDelegate.m */,
+				CCC657831C0FB39F00341A82 /* ViewController.h */,
+				CCC657841C0FB39F00341A82 /* ViewController.m */,
+				CCC657861C0FB39F00341A82 /* Main.storyboard */,
+				CCC657891C0FB39F00341A82 /* Assets.xcassets */,
+				CCC6578B1C0FB39F00341A82 /* LaunchScreen.storyboard */,
+				CCC6578E1C0FB39F00341A82 /* Info.plist */,
+				CCC6577D1C0FB39F00341A82 /* Supporting Files */,
+			);
+			path = "LLDB Command Test";
+			sourceTree = "<group>";
+		};
+		CCC6577D1C0FB39F00341A82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC6577E1C0FB39F00341A82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCC657961C0FB39F00341A82 /* LLDB Command TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC657971C0FB39F00341A82 /* LLDB_Command_TestTests.m */,
+				CCC657991C0FB39F00341A82 /* Info.plist */,
+			);
+			path = "LLDB Command TestTests";
+			sourceTree = "<group>";
+		};
+		CCC657A11C0FB39F00341A82 /* LLDB Command TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC657A21C0FB39F00341A82 /* LLDB_Command_TestUITests.m */,
+				CCC657A41C0FB39F00341A82 /* Info.plist */,
+			);
+			path = "LLDB Command TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC657791C0FB39E00341A82 /* LLDB Command Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC657A71C0FB39F00341A82 /* Build configuration list for PBXNativeTarget "LLDB Command Test" */;
+			buildPhases = (
+				CCC657761C0FB39E00341A82 /* Sources */,
+				CCC657771C0FB39E00341A82 /* Frameworks */,
+				CCC657781C0FB39E00341A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LLDB Command Test";
+			productName = "LLDB Command Test";
+			productReference = CCC6577A1C0FB39F00341A82 /* LLDB Command Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC657921C0FB39F00341A82 /* LLDB Command TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC657AA1C0FB39F00341A82 /* Build configuration list for PBXNativeTarget "LLDB Command TestTests" */;
+			buildPhases = (
+				CCC6578F1C0FB39F00341A82 /* Sources */,
+				CCC657901C0FB39F00341A82 /* Frameworks */,
+				CCC657911C0FB39F00341A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC657951C0FB39F00341A82 /* PBXTargetDependency */,
+			);
+			name = "LLDB Command TestTests";
+			productName = "LLDB Command TestTests";
+			productReference = CCC657931C0FB39F00341A82 /* LLDB Command TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCC6579D1C0FB39F00341A82 /* LLDB Command TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC657AD1C0FB39F00341A82 /* Build configuration list for PBXNativeTarget "LLDB Command TestUITests" */;
+			buildPhases = (
+				CCC6579A1C0FB39F00341A82 /* Sources */,
+				CCC6579B1C0FB39F00341A82 /* Frameworks */,
+				CCC6579C1C0FB39F00341A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC657A01C0FB39F00341A82 /* PBXTargetDependency */,
+			);
+			name = "LLDB Command TestUITests";
+			productName = "LLDB Command TestUITests";
+			productReference = CCC6579E1C0FB39F00341A82 /* LLDB Command TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC657721C0FB39E00341A82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.jerrys;
+				TargetAttributes = {
+					CCC657791C0FB39E00341A82 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CCC657921C0FB39F00341A82 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CCC657791C0FB39E00341A82;
+					};
+					CCC6579D1C0FB39F00341A82 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CCC657791C0FB39E00341A82;
+					};
+				};
+			};
+			buildConfigurationList = CCC657751C0FB39E00341A82 /* Build configuration list for PBXProject "LLDB Command Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC657711C0FB39E00341A82;
+			productRefGroup = CCC6577B1C0FB39F00341A82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC657791C0FB39E00341A82 /* LLDB Command Test */,
+				CCC657921C0FB39F00341A82 /* LLDB Command TestTests */,
+				CCC6579D1C0FB39F00341A82 /* LLDB Command TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC657781C0FB39E00341A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC6578D1C0FB39F00341A82 /* LaunchScreen.storyboard in Resources */,
+				CCC6578A1C0FB39F00341A82 /* Assets.xcassets in Resources */,
+				CCC657881C0FB39F00341A82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC657911C0FB39F00341A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC6579C1C0FB39F00341A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC657761C0FB39E00341A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC657851C0FB39F00341A82 /* ViewController.m in Sources */,
+				CCC657821C0FB39F00341A82 /* AppDelegate.m in Sources */,
+				CCC6577F1C0FB39F00341A82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC6578F1C0FB39F00341A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC657981C0FB39F00341A82 /* LLDB_Command_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC6579A1C0FB39F00341A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC657A31C0FB39F00341A82 /* LLDB_Command_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC657951C0FB39F00341A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC657791C0FB39E00341A82 /* LLDB Command Test */;
+			targetProxy = CCC657941C0FB39F00341A82 /* PBXContainerItemProxy */;
+		};
+		CCC657A01C0FB39F00341A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC657791C0FB39E00341A82 /* LLDB Command Test */;
+			targetProxy = CCC6579F1C0FB39F00341A82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCC657861C0FB39F00341A82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC657871C0FB39F00341A82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCC6578B1C0FB39F00341A82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC6578C1C0FB39F00341A82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCC657A51C0FB39F00341A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCC657A61C0FB39F00341A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC657A81C0FB39F00341A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LLDB Command Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrys.LLDB-Command-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCC657A91C0FB39F00341A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LLDB Command Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrys.LLDB-Command-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCC657AB1C0FB39F00341A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LLDB Command TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrys.LLDB-Command-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLDB Command Test.app/LLDB Command Test";
+			};
+			name = Debug;
+		};
+		CCC657AC1C0FB39F00341A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LLDB Command TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrys.LLDB-Command-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLDB Command Test.app/LLDB Command Test";
+			};
+			name = Release;
+		};
+		CCC657AE1C0FB39F00341A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LLDB Command TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrys.LLDB-Command-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LLDB Command Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CCC657AF1C0FB39F00341A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LLDB Command TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrys.LLDB-Command-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LLDB Command Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC657751C0FB39E00341A82 /* Build configuration list for PBXProject "LLDB Command Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC657A51C0FB39F00341A82 /* Debug */,
+				CCC657A61C0FB39F00341A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC657A71C0FB39F00341A82 /* Build configuration list for PBXNativeTarget "LLDB Command Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC657A81C0FB39F00341A82 /* Debug */,
+				CCC657A91C0FB39F00341A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCC657AA1C0FB39F00341A82 /* Build configuration list for PBXNativeTarget "LLDB Command TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC657AB1C0FB39F00341A82 /* Debug */,
+				CCC657AC1C0FB39F00341A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCC657AD1C0FB39F00341A82 /* Build configuration list for PBXNativeTarget "LLDB Command TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC657AE1C0FB39F00341A82 /* Debug */,
+				CCC657AF1C0FB39F00341A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC657721C0FB39E00341A82 /* Project object */;
+}
