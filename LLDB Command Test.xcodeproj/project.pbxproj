@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC468A181C1244F40025092E /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC468A171C1244F40025092E /* TestObject.m */; };
 		CCC6577F1C0FB39F00341A82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC6577E1C0FB39F00341A82 /* main.m */; };
 		CCC657821C0FB39F00341A82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC657811C0FB39F00341A82 /* AppDelegate.m */; };
 		CCC657851C0FB39F00341A82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC657841C0FB39F00341A82 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC468A161C1244F40025092E /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		CC468A171C1244F40025092E /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		CCC6577A1C0FB39F00341A82 /* LLDB Command Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LLDB Command Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC6577E1C0FB39F00341A82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCC657801C0FB39F00341A82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				CCC657831C0FB39F00341A82 /* ViewController.h */,
 				CCC657841C0FB39F00341A82 /* ViewController.m */,
 				CCC657861C0FB39F00341A82 /* Main.storyboard */,
+				CC468A161C1244F40025092E /* TestObject.h */,
+				CC468A171C1244F40025092E /* TestObject.m */,
 				CCC657891C0FB39F00341A82 /* Assets.xcassets */,
 				CCC6578B1C0FB39F00341A82 /* LaunchScreen.storyboard */,
 				CCC6578E1C0FB39F00341A82 /* Info.plist */,
@@ -272,6 +277,7 @@
 			files = (
 				CCC657851C0FB39F00341A82 /* ViewController.m in Sources */,
 				CCC657821C0FB39F00341A82 /* AppDelegate.m in Sources */,
+				CC468A181C1244F40025092E /* TestObject.m in Sources */,
 				CCC6577F1C0FB39F00341A82 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				CCC657A91C0FB39F00341A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC657AA1C0FB39F00341A82 /* Build configuration list for PBXNativeTarget "LLDB Command TestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				CCC657AC1C0FB39F00341A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC657AD1C0FB39F00341A82 /* Build configuration list for PBXNativeTarget "LLDB Command TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				CCC657AF1C0FB39F00341A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
