@@ -22,6 +22,7 @@
     int i = 99;
     NSLog(@"#1: %d", i);
     NSLog(@"#2: %d", i);
+    
 }
 
 -(void)viewDidAppear:(BOOL)animated{
